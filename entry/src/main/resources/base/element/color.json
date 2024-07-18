@@ -1,0 +1,20 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "voice_record_dynamic_effect_color_message",
+      "value": "#ab8bf58b"
+    },
+    {
+      "name": "voice_record_dynamic_effect_color_all",
+      "value": "#ABF6F6F4"
+    },
+    {
+      "name": "voice_record_dynamic_effect_color_row",
+      "value": "#abe9e9e6"
+    }
+  ]
+}

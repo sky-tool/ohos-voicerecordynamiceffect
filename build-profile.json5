@@ -1,0 +1,49 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/bin/.ohos/config/default_voicerecordynamiceffect_sU880lCOJk_02n4gVg3QNoPNlEpWlbhR_EpC0A2hB9E=.cer",
+          "storePassword": "0000001A6B94212E893C8D540370915F591484F7826127DDD55B779B2C59DBC0CD70C58AA4AD38ED3401",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A75EC8F9F4F0AF5737FB24CB25DBD78006E9CA07EA2FBD63763C30160BA50D9A96DBA18287FEA",
+          "profile": "/Users/bin/.ohos/config/default_voicerecordynamiceffect_sU880lCOJk_02n4gVg3QNoPNlEpWlbhR_EpC0A2hB9E=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/bin/.ohos/config/default_voicerecordynamiceffect_sU880lCOJk_02n4gVg3QNoPNlEpWlbhR_EpC0A2hB9E=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
